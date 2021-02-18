@@ -4,7 +4,7 @@ import os
 import sys
 
 BUCKET_NAME = 'lemur-omar-bucket' # replace with your bucket name
-FOLDER_NAME = 'hiiii.txt'
+FOLDER_NAME = 'testUploadDir'
 KEY = FOLDER_NAME + '/'
 
 # s3 = boto3.client('s3')
