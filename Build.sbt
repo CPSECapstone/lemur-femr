@@ -4,7 +4,6 @@ import com.typesafe.sbt.digest.Import._
 import com.typesafe.sbt.gzip.Import._
 import com.typesafe.sbt.web.Import._
 
-
 val appName = "femr"
 val appVersion = "2.4.1-beta"
 val currentScalaVersion = "2.11.7"
@@ -26,7 +25,6 @@ val appDependencies = Seq(
   "com.h2database" % "h2" % "1.4.193",
   "com.jcraft" % "jsch" % "0.1.54"
 )
-
 
 val main = (project in file(".")).enablePlugins(PlayJava, PlayEbean).settings(
 
