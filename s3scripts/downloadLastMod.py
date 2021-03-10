@@ -2,6 +2,9 @@ import boto3
 import botocore
 from datetime import datetime
 
+"""
+Note: This script can download the latest modified object in a S3 bucket
+"""
 BUCKET_NAME = 'lemur-omar-bucket' # replace with your bucket name
 
 s3 = boto3.client('s3')

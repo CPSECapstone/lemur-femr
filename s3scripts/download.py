@@ -3,6 +3,9 @@ import botocore
 import os
 from datetime import datetime
 
+"""
+Note: This file downloads all contents of a S3 bucket into a target directory.
+"""
 BUCKET_NAME = 'lemur-omar-bucket' # replace with your bucket name
 LOCAL_DEST = '/Users/omarshorab/IdeaProjects/lemur-femr/s3scripts/' # local destination for download
 

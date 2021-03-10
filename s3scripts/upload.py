@@ -3,9 +3,16 @@ import botocore
 import os
 import sys
 
+"""
+Note: The current capability of this script is to upload either a file or a
+folder to an S3 bucket, given the file or folder's local path.
+
+If a folder is to be uploaded, its path must end with a '/', otherwise it will be treated
+as a file.
+"""
+
 BUCKET_NAME = 'lemur-omar-bucket' # replace with your bucket name
 ABS_PATH = "/Users/omarshorab/IdeaProjects/lemur-femr/s3scripts/success.txt"
-
 
 """
 params:
